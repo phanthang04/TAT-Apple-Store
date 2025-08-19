@@ -1,0 +1,208 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 thg 5, 2025, 13:14:41
+    Author     : tnteheh
+*/
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+/* Header warning bar */
+.header-warning {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.header-warning_text {
+    margin: 0;
+}
+
+.header-warning_text a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header-warning_text a:hover {
+    color: #ccc;
+}
+
+/* Header bar (logo, search, icons) */
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #fff;
+}
+
+/* Logo */
+.header-bar-logo img {
+    width: 250px;
+}
+
+/* Search bar */
+.header-bar_search {
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.header-bar_search form {
+    display: flex;
+    align-items: center;
+}
+
+.header-bar_search input[type="text"] {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.header-bar_search .fa-magnifying-glass {
+    position: absolute;
+    right: 15px;
+    color: #666;
+    font-size: 16px;
+}
+
+/* User icon container */
+.icon-user {
+    position: relative; /* Ensure the dropdown positions relative to this */
+    margin-left: 20px;
+}
+
+.icon-user a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* User dropdown */
+.header-user {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position directly below the icon */
+    right: 0; /* Align to the right of the icon to avoid overflow */
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    z-index: 10;
+    padding: 0; /* Remove any unnecessary padding */
+}
+
+/* Show dropdown on hover */
+.icon-user:hover .header-user {
+    display: block;
+}
+
+/* Dropdown header */
+.header-user_header {
+    padding: 10px;
+    text-align: center;
+    margin: 0; /* Remove any margin that might cause extra space */
+}
+
+/* Horizontal line in dropdown */
+.header-user hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 0; /* Remove margin to avoid extra space */
+}
+
+/* Dropdown items */
+.user-before-login li {
+    list-style: none;
+    padding: 10px;
+    margin: 0; /* Ensure no extra margin */
+}
+
+.user-before-login a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    display: block; /* Ensure the link takes up the full width of the li */
+}
+
+.user-before-login a:hover {
+    color: #666;
+}
+
+.user-after-login li {
+    list-style: none;
+    padding: 10px;
+    margin: 0; /* Ensure no extra margin */
+}
+
+.user-after-login a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    display: block; /* Ensure the link takes up the full width of the li */
+}
+
+.user-after-login a:hover {
+    color: #666;
+}
+
+/* Cart icon */
+.header-bar_cart {
+    margin-left: 20px;
+}
+
+.header-bar_cart a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Navigation menu */
+.menu-tieu-de {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.menu-tieu-de li {
+    width: 200px;
+    text-align: center;
+}
+
+.menu-tieu-de a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-tieu-de a:hover {
+    color: #666;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}

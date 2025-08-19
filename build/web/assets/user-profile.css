@@ -1,0 +1,75 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        .avatar-wrapper {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .avatar-wrapper img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ddd;
+        }
+        .username {
+            margin-top: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #222;
+        }
+        .form-label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 18px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        .btn-black {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-align: center;
+            font-weight: 500;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-black:hover {
+            background-color: #555;
+        }
+        .d-grid {
+            display: flex;
+            justify-content: center;
+        }
+        .text-center {
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .card {
+                padding: 20px;
+            }
+        }

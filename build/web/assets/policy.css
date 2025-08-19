@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+main{
+    margin-bottom: 50px;
+    line-height: 1.6;
+    font-family: Montserrat, sans-serif;
+}
+
+.warraty-policy-main{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.title-warranty-policy{
+    font-weight: Bold;
+}
+
+.title-warranty-policy{
+    text-align: center;
+    padding: 20px;
+}
+
+.paragraph-wanrranty-policy p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.paragraph-wanrranty-policy ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraph-wanrranty-policy li{
+    margin-left: 50px;
+}
+
+h1, h3{
+    font-family: Montserrat, sans-serif;
+}
+
+.table-warranty-policy{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.table-warranty-policy th {
+    font-family: Montserrat, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.table-warranty-policy td {
+        font-family: Montserrat, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}

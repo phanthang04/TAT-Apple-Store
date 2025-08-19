@@ -1,0 +1,38 @@
+footer{
+    font-family: Monsterrat-Light;
+}
+.first-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.left-footer{
+    font-size: 12px;
+    width: 240px;
+    font-family: Monsterrat-Light;
+    margin-right: 60px;
+    line-height: 1.5;
+}
+.text-left-footer{
+    padding-left: 12px;
+}
+.table-footer{
+    font-size: 12px;
+    width: auto;
+    margin-top: 10px;
+    font-family: Monsterrat-Light;
+}
+.table-footer a{
+    text-decoration: none;
+    color: black;
+}
+.right-footer{
+    font-size: 12px;
+    width: 230px;
+    margin-top: 12px;
+    font-family: Monsterrat-Light;
+}
+.icon-social-network-footer a{
+    text-decoration: none;
+}
